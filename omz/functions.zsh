@@ -80,13 +80,13 @@ vscode-dev-connect() {
 ##
 start-day() {
   open -a Mail
-  open -a Safari
-  open -a Slack
-  open -a Obsidian
+#  open -a Safari
+#  open -a Slack
+#  open -a Obsidian
   open -a "Visual Studio Code"
-  open -a Music
-  open -a Twitter
-  open -a Stickies
+#  open -a Music
+#  open -a Twitter
+#  open -a Stickies
 }
 
 
