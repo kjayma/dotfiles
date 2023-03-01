@@ -1,20 +1,12 @@
-# benmatselby apps
-alias trello='~/git/github/benmatselby/trello-cli/bin/trello.php'
-alias ringli='~/git/github/benmatselby/ringli/bin/ringli'
-
 # Brew
-alias brew-uninstall-packages='brew remove --force $(brew list --formula) && brew remove --cask --force $(brew list)'
+# alias brew-uninstall-packages='brew remove --force $(brew list --formula) && brew remove --cask --force $(brew list)'
 
 # Filesystem
-alias ghbms='cd ${HOME}/git/github/benmatselby/'
-alias ghw='cd ${HOME}/git/github/${GITHUB_ORG}/'
-alias ghjoe='cd ${HOME}/git/github/joelrap/'
-alias ghjos='cd ${HOME}/git/github/minejosh/'
-alias gic='cd ${HOME}/Library/Mobile\ Documents/com~apple~CloudDocs/'
+alias ghkjay='cd ${HOME}/git/github/kjayma/'
 
 # gcloud
-alias gcloud-proj-list='gcloud config configurations list'
-alias gcloud-proj-use='gcloud config configurations activate'
+# alias gcloud-proj-list='gcloud config configurations list'
+# alias gcloud-proj-use='gcloud config configurations activate'
 
 # Git
 alias gdn='git diff --name-only'
@@ -27,7 +19,7 @@ alias drac='docker rm $(docker ps -aq)'
 alias dsac='docker stop $(docker ps -aq)'
 
 # Go
-alias godeps='go list -u -f "{{if (and (not (or .Main .Indirect)) .Update)}}{{.Path}}: {{.Version}} -> {{.Update.Version}}{{end}}" -m all 2> /dev/null'
+# alias godeps='go list -u -f "{{if (and (not (or .Main .Indirect)) .Update)}}{{.Path}}: {{.Version}} -> {{.Update.Version}}{{end}}" -m all 2> /dev/null'
 
 # Kubernetes
 alias k='kubectl'
@@ -37,25 +29,21 @@ alias mkmount='minikube mount "$(pwd)":"$(pwd)"'
 alias mkssh='ssh -i ~/.minikube/machines/minikube/id_rsa docker@$(minikube ip)'
 
 # Multipass
-alias mp='multipass'
-alias mp-docker-start='multipass launch -c 2 -m 2G -d 40G -n docker-multipass 20.04 --cloud-init ${HOME}/git/github/${GITHUB_USER}/dotfiles/common/multipass-docker.yml'
+# alias mp='multipass'
+# alias mp-docker-start='multipass launch -c 2 -m 2G -d 40G -n docker-multipass 20.04 --cloud-init ${HOME}/git/github/${GITHUB_USER}/dotfiles/common/multipass-docker.yml'
 
 # Node
-alias nvmu='nvm use'
-
-# Note taking
-alias life='cd $HOME/git/github/benmatselby/life'
-alias eod-life='cd $HOME/git/github/benmatselby/life && git add . && git commit -anm "`date`" && git push origin main'
+# alias nvmu='nvm use'
 
 # OS
-alias ls='ls -lGh'
+# alias ls='ls -lGh'
 alias envs='env | sort'
 alias envg='env | grep -i'
-alias dmChange="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'"
+# alias dmChange="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'"
 alias open-ports="lsof -i -P -n | grep LISTEN"
 
 # Random
-alias aliasg='alias | grep '
+# alias aliasg='alias | grep '
 alias open-chrome='open -a "Google Chrome"'
 alias guid='uuidgen | tr "[:upper:]" "[:lower:]"'
 alias publicip="dig +short myip.opendns.com @resolver1.opendns.com"

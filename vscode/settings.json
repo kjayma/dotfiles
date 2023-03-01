@@ -1,9 +1,4 @@
 {
-  "audioCues.onDebugBreak": "on",
-  "cSpell.diagnosticLevel": "Hint",
-  "cSpell.enableFiletypes": ["terraform"],
-  "cSpell.language": "en-GB",
-  "dotfiles.repository": "https://github.com/benmatselby/dotfiles.git",
   "editor.accessibilitySupport": "off",
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -27,24 +22,24 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "githubPullRequests.pullBranch": "never",
-  "gitlens.codeLens.scopes": ["blocks", "document", "containers"],
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.views.fileHistory.files.compact": false,
-  "go.toolsManagement.autoUpdate": true,
-  "go.useLanguageServer": true,
-  "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--fast"],
-  "openapi.defaultPreviewRenderer": "redoc",
-  "outline.collapseItems": "alwaysCollapse",
-  "php.suggest.basic": false,
-  "php.validate.enable": false,
+  //"gitlens.codeLens.scopes": ["blocks", "document", "containers"],
+  //"gitlens.hovers.currentLine.over": "line",
+  //"gitlens.views.fileHistory.files.compact": false,
+  //"go.toolsManagement.autoUpdate": true,
+  //"go.useLanguageServer": true,
+  //"go.lintTool": "golangci-lint",
+  //"go.lintFlags": ["--fast"],
+  //"openapi.defaultPreviewRenderer": "redoc",
+  //"outline.collapseItems": "alwaysCollapse",
+  //"php.suggest.basic": false,
+  //"php.validate.enable": false,
   "prettier.printWidth": 120,
   "python.formatting.provider": "black",
-  "redhat.telemetry.enabled": false,
-  "search.exclude": {
-    "**/.mypy_cache": true,
-    "bandit_baseline": true
-  },
+  //"redhat.telemetry.enabled": false,
+  //"search.exclude": {
+  //  "**/.mypy_cache": true,
+  //  "bandit_baseline": true
+  //},
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.scrollback": 10000,
@@ -55,9 +50,9 @@
   "window.title": "${rootName}${separator}${activeFolderMedium}/${activeEditorShort}",
   "workbench.editor.enablePreview": true,
   "workbench.editor.untitled.labelFormat": "name",
-  "workbench.preferredLightColorTheme": "Solarized Light",
-  "workbench.preferredDarkColorTheme": "Solarized Dark",
-  "workbench.tree.indent": 12,
+  //"workbench.preferredLightColorTheme": "Solarized Light",
+  //"workbench.preferredDarkColorTheme": "Solarized Dark",
+  //"workbench.tree.indent": 12,
   "zenMode.hideLineNumbers": false,
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
@@ -94,8 +89,48 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terraform.languageServer.enable": true,
-  "workbench.startupEditor": "none",
+  //"terraform.languageServer.enable": true,
+  //"workbench.startupEditor": "none",
   "workbench.colorTheme": "Default Light+",
-  "githubPullRequests.fileListLayout": "tree"
+  "githubPullRequests.fileListLayout": "tree",
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "terminal.integrated.inheritEnv": true,
+  "jupyter.debugJustMyCode": false,
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.profiles.osx": {
+      "zsh": {
+          "path": "zsh",
+          "args": [
+              "-l"
+          ]
+      },
+      "bash": {
+          "path": "bash",
+          "args": [
+              "-l"
+          ],
+          "icon": "terminal-bash"
+      },
+      "fish": {
+          "path": "fish",
+          "args": [
+              "-l"
+          ]
+      },
+      "tmux": {
+          "path": "tmux",
+          "icon": "terminal-tmux"
+      },
+      "pwsh": {
+          "path": "pwsh",
+          "icon": "terminal-powershell"
+      }
+  },
+  "http.proxySupport": "fallback",
+  "notebook.lineNumbers": "on",
+  "python.terminal.executeInFileDir": true,
+  "window.zoomLevel": -1,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "diffEditor.ignoreTrimWhitespace": false,
 }
