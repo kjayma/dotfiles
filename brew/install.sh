@@ -19,7 +19,7 @@ ABREW_PACKAGES=(
   bash
   #composer
   fzf
-  gh
+  #gh
   git
   #go
   #golangci-lint
