@@ -13,37 +13,37 @@ fi
 printf "\n🚀 Installing brew packages\n"
 # Arm
 ABREW_PACKAGES=(
-  ansible
+  #ansible
   ag
   # awscli
   bash
-  composer
+  #composer
   fzf
   gh
   git
-  go
-  golangci-lint
-  glow
+  #go
+  #golangci-lint
+  #glow
   htop
-  hugo
+  #hugo
   jq
-  k9s
+  #k9s
   # kind
-  kubectl
-  kubectx
-  kube-ps1
-  mongosh
-  mysql-client
+  #kubectl
+  #kubectx
+  #kube-ps1
+  #mongosh
+  #mysql-client
   # multipass
   # nmap
   nvm
-  php
-  planetscale/tap/pscale
+  #php
+  #planetscale/tap/pscale
   pyenv
-  reattach-to-user-namespace
+  #reattach-to-user-namespace
   # shellcheck
-  starship
-  terraform
+  #starship
+  #terraform
   # terragrunt
   # tflint
   # tmux
