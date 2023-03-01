@@ -133,4 +133,8 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.defaultProfile.linux": "zsh",
   "diffEditor.ignoreTrimWhitespace": false,
+  "dotfiles.repository": "https://github.com/kjayma/dotfiles.git",
+  "settingsSync.ignoredSettings": [
+    "-dotfiles.repository"
+  ],
 }

@@ -13,11 +13,16 @@ export DOTFILES_LOCATION;
 ###
 ./bin/dotfiles install omz
 ./bin/dotfiles install zsh
-./bin/dotfiles install brew
+if [[ "$OSTYPE" =~ ^darwin]]; then
+  ./bin/dotfiles install brew
+else
+  printf "\nOSX - skipping brew install\n"
+fi
+
 ./bin/dotfiles install vscode
 ./bin/dotfiles install git
 ./bin/dotfiles install github
-./bin/dotfiles install node
+#./bin/dotfiles install node
 # ./bin/dotfiles install mongodb
 # ./bin/dotfiles install php
 # ./bin/dotfiles install starship
